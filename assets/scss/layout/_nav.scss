@@ -1,0 +1,9 @@
+.contenedor__barranav{
+    display:flex;
+    padding: 0 100px;
+    justify-content: space-between;
+    &__iconos ul{
+        display: flex;
+        list-style: none;
+    }
+}
