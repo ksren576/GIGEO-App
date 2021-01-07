@@ -9902,14 +9902,38 @@ body {
   box-sizing: border-box;
 }
 
+.container__perfil {
+  background-color: #fdf5e6;
+}
+
+.contenedor__header {
+  height: 200px;
+  background-image: url(../img/image-banner.png);
+  background-position: right;
+}
+
 .contenedor__barranav {
   display: flex;
-  padding: 0 100px;
+  padding: 0 150px;
   justify-content: space-between;
+  background-color: #fdf5e6;
+  flex-direction: row;
 }
 .contenedor__barranav__iconos ul {
   display: flex;
   list-style: none;
+  padding: 30px;
+}
+
+.button-ross {
+  background-color: #db7094e3;
+  color: #ffffff;
+  font-weight: 400;
+}
+.button-ross__rosa {
+  background-color: #ffb6c1;
+  color: #ffffff;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=main.css.map */
