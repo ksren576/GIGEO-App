@@ -1,15 +1,15 @@
-.contenedor__barranav{
-    display:flex;
-    padding: 0 100px;
-    justify-content: space-between;
-    background-color: $white;
+.contenedor__barranav {
+  display: flex;
+  padding: 0 100px;
+  justify-content: space-between;
+  background-color: $white;
 
-    flex-direction: row;
-    &__iconos ul{
-        display: flex;
-        list-style: none;
-        padding: 30px;
-        
-    
+  flex-direction: row;
+  &__iconos {
+    ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
     }
+  }
 }

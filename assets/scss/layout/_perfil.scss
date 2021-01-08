@@ -1,21 +1,28 @@
+.container__perfil__foto {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  @media (min-width: 768px) {
+    padding: 0;
+  }
+  p {
+    font-size: 14px;
+    color: $black;
+    margin-bottom: 0;
+    margin-left: 20px;
+  }
 
-.container__perfil{
-    display: flex;
-    justify-content: center;
-
-    &__perfil__nombre{
-        padding-left: 20px;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        h2{
-
-            font-size: 22px;
-        }
-        p{
-            font-size: 14px;
-            color:$white;
-            margin-bottom: 0;
-        }
+  &__nombre {
+    padding-left: 20px;
+    align-items: center;
+    flex-direction: row;
+    font-size: 22px;
+    margin: 0;
+  }
 }
+.img__perfil {
+  width: 70px;
+  border-radius: 50%;
 }

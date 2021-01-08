@@ -1,13 +1,25 @@
-.contenedor__barranav{
-    padding: 20px 20px 10px;
+.contenedor__barranav {
+  padding: 20px;
+  @media (min-width: 768px) {
+    padding: 20px 0 20px;
+  }
 }
 
-.contenedor__barranav__logo svg{
-    width: 200px;
+.contenedor__barranav__logo img {
+  width: 120px;
 }
-.contenedor__barranav__iconos{
-    i{
-        padding: 20px 15px;
-        font-size: 20px;
+.contenedor__barranav__iconos {
+  &__ocultar {
+    display: none;
+    @media (min-width: 768px) {
+      display: block;
     }
+  }
+  i {
+    padding: 10px 10px;
+    font-size: 24px;
+    @media (min-width: 768px) {
+      font-size: 20px;
+    }
+  }
 }
