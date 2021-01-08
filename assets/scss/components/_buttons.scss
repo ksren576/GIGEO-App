@@ -1,11 +1,30 @@
-.button-ross{
-    background-color: $paleovioletred;
-    color: $white;
-    font-weight: $fwRegular;
-    &__rosa{
-        background-color:$lightpink;
-        color: $white;
-        font-weight: $fwRegular;
+.perfil__button{
+    display: flex;
+    &__perfil__button{
 
+        &__coral{
+            
+            background-color: $coral;
+            color: $white;
+            font-weight: $fwRegular;
+            font-size: 10px;
+        }
+        &__perfil__button__aqua{
+            background-color:$aqua;
+            color: $white;
+            font-weight: $fwRegular;
+            font-size: 10px;
+            border:none;
+            padding:10px 15px;
+            
+        }
     }
+            
+
+
 }
+
+       
+
+
+

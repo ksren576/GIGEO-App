@@ -1,4 +1,21 @@
-.container__perfil{
-    background-color: $oldlace;
 
+.container__perfil{
+    display: flex;
+    justify-content: center;
+
+    &__perfil__nombre{
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        h2{
+
+            font-size: 22px;
+        }
+        p{
+            font-size: 14px;
+            color:$white;
+            margin-bottom: 0;
+        }
+}
 }

@@ -1,8 +1,9 @@
 .contenedor__barranav{
     display:flex;
-    padding: 0 150px;
+    padding: 0 100px;
     justify-content: space-between;
-    background-color: $oldlace;
+    background-color: $white;
+
     flex-direction: row;
     &__iconos ul{
         display: flex;
