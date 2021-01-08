@@ -1,0 +1,31 @@
+.videos {
+  padding-left: 40px;
+  padding-right: 40px;
+  @media (min-width: 768px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  &__titulo {
+    font-size: 24px;
+    margin: 30px 0;
+    font-weight: $fwRegular;
+    text-align: center;
+    @media (min-width: 768px) {
+      text-align: left;
+    }
+  }
+  &__video {
+    &__imagen {
+      width: 100%;
+    }
+    &__titulo {
+      margin: 10px 0 0;
+      font-size: 16px;
+      font-weight: $fwBold;
+    }
+    &__subtitle {
+      font-size: 14px;
+      font-weight: $fwRegular;
+    }
+  }
+}
